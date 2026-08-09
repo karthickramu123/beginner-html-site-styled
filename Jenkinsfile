@@ -1,7 +1,7 @@
 pipeline {
     agent {
-        label 'kubernetes-master'
-    }
+    label 'jenkins-master'
+   }
 
     environment {
         IMAGE_NAME = 'karthi1995/beginner-html-site'
